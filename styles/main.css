@@ -1,6 +1,14 @@
 body {
   margin: 0;
-  background-color: rgb(13, 13, 14);
+  /* background-color: rgb(13, 13, 14); */
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/Eric_Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .video {  
@@ -32,27 +40,28 @@ nav li {
 
 iframe {
   display: block;       
-  background: #000;
+  background: c5c5d3;
   border: none;         
-  height: 85vh;        
-  width: 98vw;
+  height: 95vh;        
+  width: 100vw;
+
 }
 
 /* Add a background color and some padding around the form */
 #contact {
-  /* display:flex;
-  justify-content: left; */
-  border-radius: 5px;
+
   color: #f2f2f2;
-  padding: 1em;
-  margin: 2rem 25rem;  
+  text-align: center;
+
 }
 
 #concept {
   border-radius: 5px;
-  color: #f2f2f2;
+  color: #ffffff;
   padding: 1em;
   margin: 2rem ;  
+  text-shadow: black;
+  font-weight: 300;
 }
 
 .concept_title {
