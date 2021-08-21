@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  /* background-color: rgb(13, 13, 14); */
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/Eric_Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.video {  
+width: max;
+
+}
+nav ul {
+  opacity: 90;
+  list-style-type: none;
+	margin: 0;
+  background: transparent;
+	overflow: hidden;
+  color:rgb(197, 197, 211);
+	display: flex;
+	justify-content: space-evenly; 
+}
+
+nav li {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+.font {
+  font-size: 1em;
+  color:rgb(197, 197, 211);
+  
+}
+
+iframe {
+  display: block;       
+  background: c5c5d3;
+  border: none;         
+  height: 95vh;        
+  width: 100vw;
+
+}
+
+/* Add a background color and some padding around the form */
+#contact {
+
+  color: #f2f2f2;
+  text-align: center;
+
+}
+
+#concept {
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 1em;
+  margin: 2rem ;  
+  text-shadow: black;
+  font-weight: 300;
+}
+
+.concept_title {
+  text-align: center;
+}
+
+a:link {
+  color:rgb(197, 197, 211);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:rgb(197, 197, 211);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+address {
+  font-style: normal;
+}
+
